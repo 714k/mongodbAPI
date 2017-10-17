@@ -1,13 +1,13 @@
 import Verb from '../models/Verbs';
 
 export function getAllVerbs(req, res, next) {
-    Verb.find(err, verbs) => {
+    Verb.find((err, verbs) => {
         if (err) {
             res.status(500).json({err});
         }
 
         res.status(200).json({verbs});
-    }
+    });
 }
 
 export function getVerbById(req, res, next) {

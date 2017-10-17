@@ -10,7 +10,7 @@
 6 silly lifecycle mongodbapi@1.0.0~prebuild: no script for prebuild, continuing
 7 info lifecycle mongodbapi@1.0.0~build: mongodbapi@1.0.0
 8 verbose lifecycle mongodbapi@1.0.0~build: unsafe-perm in lifecycle true
-9 verbose lifecycle mongodbapi@1.0.0~build: PATH: /home/victor/.nvm/versions/node/v6.11.3/lib/node_modules/npm/bin/node-gyp-bin:/trainings/mongoDB/mongodbAPI/node_modules/.bin:/usr/bin/mongod/bin:/home/victor/.nvm/versions/node/v6.11.3/bin:/usr/bin/mongod/bin:/home/victor/.rvm/gems/ruby-2.4.1/bin:/home/victor/.rvm/gems/ruby-2.4.1@global/bin:/home/victor/.rvm/rubies/ruby-2.4.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/victor/.rvm/bin:/home/victor/.rvm/bin:/home/victor/.rvm/bin:/home/victor/.rvm/bin
+9 verbose lifecycle mongodbapi@1.0.0~build: PATH: /home/victor/.nvm/versions/node/v6.11.3/lib/node_modules/npm/bin/node-gyp-bin:/trainings/mongoDB/mongodbAPI/node_modules/.bin:/usr/bin/mongod/bin:/home/victor/.nvm/versions/node/v6.11.3/bin:/home/victor/.rvm/gems/ruby-2.4.1/bin:/home/victor/.rvm/gems/ruby-2.4.1@global/bin:/home/victor/.rvm/rubies/ruby-2.4.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/victor/.rvm/bin:/home/victor/.rvm/bin
 10 verbose lifecycle mongodbapi@1.0.0~build: CWD: /trainings/mongoDB/mongodbAPI
 11 silly lifecycle mongodbapi@1.0.0~build: Args: [ '-c', 'tsc' ]
 12 silly lifecycle mongodbapi@1.0.0~build: Returned: code: 2  signal: null

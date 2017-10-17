@@ -4,11 +4,13 @@ const config = {
     port: 3000,
     
     // database
-    db: 'mongodb:localhost/verbs',
+    db: 'mongodb://localhost/verbs', 
+
+    useMongoClient: true,
 
     // test enviroment
     test_env: 'test',
-    test_db: 'mongodb://verbs-test',
+    //test_db: 'mongodb://verbs-test',
     test_port: 3001
 };
 

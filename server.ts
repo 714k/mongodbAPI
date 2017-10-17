@@ -13,7 +13,7 @@ import config from './config/main';
 const app = express();
 
 // init mongoose
-mongoose.connect(config.db);
+mongoose.connect(config.db, {useMongoClient: config.useMongoClient});
 
 // express middlewares
 app.use(bodyParser.urlencoded({extended: true}));
@@ -28,13 +28,16 @@ router(app);
 
 // init server
 let server;
+
+/**/
 if (process.env.NODE_ENV !== config.test_env) {
     server = app.listen(config.port, () => {
         console.log(`Server listening on port ${config.port}`);
     });    
 } else {
     server = app.listen(config.test_port, () => {
-        console.log(`Server listen on port ${config.test_port}`);
+        console.log(`Test Server listen on port ${config.test_port}`);
     });    
 }
+/**/
 export default server;
