@@ -4,7 +4,7 @@ const config = {
     port: 3000,
     
     // database
-    db: 'mongodb://localhost/verbs', 
+    db: 'mongodb://localhost:27017/enAppDB', 
 
     useMongoClient: true,
 
